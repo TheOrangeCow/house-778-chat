@@ -6,7 +6,7 @@ if (file_exists(__DIR__ . '/.env')) {
         putenv($line);
     }
 }
-define('ENCRYPTION_KEY', ENCRYPTION_KEY);
+define('ENCRYPTION_KEY', "a3f5d2e7b8a9c3f1e8d2b4a6f7e2d9c8");
 
 function encrypt($data, $key) {
     return openssl_encrypt($data, 'aes-256-cbc', $key, 0, substr(md5($key), 0, 16));
