@@ -1,0 +1,90 @@
+#chatBox{
+    background: rgba(250, 250, 250, 0.5);
+    padding: 10px;
+    border-radius: 4px;
+    min-height: 50%;
+    max-height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.message{
+    background: rgba(250, 250, 250, 0.5);
+    padding: 10px;
+    border-radius: 4px;
+}
+.message strong{
+    color: #007bff;
+}
+
+#message{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+#submit{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#submit:hover{
+    background-color: #0056b3;
+}
+
+.hidden{
+    display: none;
+}
+
+#chatName,
+#chatType,
+#joinCode{
+    width: 30%;
+    min-width: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.user{
+    display: inline-block; 
+}
+.messigeText{
+    display: inline-block;
+}
+
+label{
+    font-size: 20px;
+}
+
+select{
+    height: auto;
+}
+
+.code {
+    background: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+.copy-button {
+    float: right;
+    padding: 5px 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
